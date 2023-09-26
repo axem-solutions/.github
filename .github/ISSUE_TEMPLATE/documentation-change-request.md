@@ -1,5 +1,5 @@
 ---
-name: Documentation issue template
+name: Documentation change request
 about: Suggest an idea to improve the Documentation
 title: "[DOC]"
 labels: documentation, enhancement
