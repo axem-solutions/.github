@@ -13,4 +13,4 @@ to get the most out of your development setup.
 
 ## Getting help
 In case you have any questions, feel free to contact us at 
-info@axemsolutions.io.
+info@axemsolutions.io or write us on [Discord](https://discord.gg/5CzxbEZ3)<br>
