@@ -9,7 +9,7 @@ Please create new issues for bugs, feature ideas, or any improvements.
 
 Reach out to us at 
 - [Discussions](https://github.com/axem-solutions/dem/discussions)
-- [Discord](https://discord.gg/5CzxbEZ3)
+- [Discord](https://discord.com/invite/Nv6hSzXruK)
 - Send a DM on GitHub or an email to info@axemsoutions.io
 
 Before contributing don't forget to read the DEM's [documentation](https://axemsolutions.io/dem_doc/) 
@@ -29,7 +29,7 @@ or try the [tutorial](https://www.axemsolutions.io/tutorial/) for hand-on experi
 
 1. Select an issue which has the status 🔖 Ready to implement under the issue's project settings
 2. Discuss the selected issue with the maintainers -> you can reach out at the
-[Discussions](https://github.com/axem-solutions/dem/discussions) or [Discord](https://discord.gg/5CzxbEZ3)
+[Discussions](https://github.com/axem-solutions/dem/discussions) or [Discord](https://discord.com/invite/Nv6hSzXruK)
 3. Set the selected issue's status to 🏗️ In progress when you start to work on it
 4. Fork the DEM, if you haven't done it already
 5. Create a new feature branch for your modifications (you can name it as you wish, but our
