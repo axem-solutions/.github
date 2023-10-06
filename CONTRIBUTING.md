@@ -35,6 +35,8 @@ or try the [tutorial](https://www.axemsolutions.io/tutorial/) for hand-on experi
 5. Create a new feature branch for your modifications (you can name it as you wish, but our
 best practice is to name it after the issue ID)
 6. Create the implementation
+6. Write the new test cases to achieve 100% coverage
+6. Update the documentation
 7. Open a PR from your fork to the upstream main and fill the PR template
 8. Set the *persea* group as reviewer, then set the issue's status to 👀 In review
 9. Fix the findings if there is any
