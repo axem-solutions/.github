@@ -43,15 +43,15 @@ best practice is to name it after the issue ID)
 
 ## Working with the DEM source
 
-You can use DEM as a Python module. To do this, you must add the `-m` flag to your command.
+> The following steps are mandatory to be able to work with the DEM source.
 
-For example:
+We use [poetry](https://python-poetry.org/) to manage dependencies and create a 
+virtual environment for DEM. Install it with: 
 
-    python -m dem list --local --env
+   curl -sSL https://install.python-poetry.org | python3 - 
 
-We use [poetry](https://python-poetry.org/) to manage dependencies and create a virtual environment
-for DEM. You should enter the preconfigured virtual environment to ensure that you use the correct 
-version of the required modules.
+You should enter the preconfigured virtual environment to ensure that you use 
+the correct version of the required modules.
 
 First, install the environment with the required dependencies:
 
@@ -62,6 +62,13 @@ Enter the virtual environment:
     poetry shell
 
 The recommended way to test your modifications is to use the poetry shell.
+
+As an alternative, you can use DEM as a Python module. To do this, you must add 
+the `-m` flag to your command.
+
+For example:
+
+    python -m dem list --local --env
 
 ## Running Unit Tests
 
