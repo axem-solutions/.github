@@ -27,31 +27,47 @@ or try the [tutorial](https://www.axemsolutions.io/tutorial/) for hand-on experi
 
 ## Working on an issue
 
-1. Select an issue which has the status 🔖 Ready to implement under the issue's project settings
+1. Select an issue which has the status 🔖 Ready to implement under the issue's 
+project settings
 2. Discuss the selected issue with the maintainers -> you can reach out at the
-[Discussions](https://github.com/axem-solutions/dem/discussions) or [Discord](https://discord.com/invite/Nv6hSzXruK)
+[Discussions](https://github.com/axem-solutions/dem/discussions) or 
+[Discord](https://discord.com/invite/Nv6hSzXruK)
 3. Set the selected issue's status to 🏗️ In progress when you start to work on it
 4. Fork the DEM, if you haven't done it already
-5. Create a new feature branch for your modifications (you can name it as you wish, but our
-best practice is to name it after the issue ID)
+5. Create a new feature branch for your modifications (you can name it as you 
+wish, but our best practice is to name it after the issue ID)
 6. Create the implementation
+6. Write the new test cases to achieve 100% coverage for your modifications
+6. Update the documentation
 7. Open a PR from your fork to the upstream main and fill the PR template
 8. Set the *persea* group as reviewer, then set the issue's status to 👀 In review
 9. Fix the findings if there is any
 10. The reviewer who approved the PR can set the status to ✅ Done
 11. The branch can be merged to the upstream main
 
+## Rules for the implementation
+
+1. 100% code coverage must be achieved for every modification you make in the 
+production code.
+2. Use type annotation for the function parameters and return values.
+3. Use the appropriate Third-party modules where applicable:
+    1. Typer: Create CLI commands and get input from the user.
+    2. Rich: Format output.
+    3. Requests: Create HTTP requests.
+    4. Readchar: Get single character input from the user.
+    5. Docker: Communicate with the Docker Engine.
+
 ## Working with the DEM source
 
-You can use DEM as a Python module. To do this, you must add the `-m` flag to your command.
+> The following steps are mandatory to be able to work with the DEM source.
 
-For example:
+We use [poetry](https://python-poetry.org/) to manage dependencies and create a 
+virtual environment for DEM. Install it with: 
 
-    python -m dem list --local --env
+   curl -sSL https://install.python-poetry.org | python3 - 
 
-We use [poetry](https://python-poetry.org/) to manage dependencies and create a virtual environment
-for DEM. You should enter the preconfigured virtual environment to ensure that you use the correct 
-version of the required modules.
+You should enter the preconfigured virtual environment to ensure that you use 
+the correct version of the required modules.
 
 First, install the environment with the required dependencies:
 
@@ -62,6 +78,13 @@ Enter the virtual environment:
     poetry shell
 
 The recommended way to test your modifications is to use the poetry shell.
+
+As an alternative, you can use DEM as a Python module. To do this, you must add 
+the `-m` flag to your command.
+
+For example:
+
+    python -m dem list --local --env
 
 ## Running Unit Tests
 
