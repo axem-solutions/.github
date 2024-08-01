@@ -1,8 +1,6 @@
-# Speeding up embedded development platforms 🚀
+# Speeding up embedded development 🚀
 
-At axem, we are a team of **Embedded Platform** experts dedicated to helping 
-individuals and businesses create a productive and enjoyable development 
-experience.  
+At axem, we created and open-source devtool (Development Environment Manager) for embedded software developers to speed up DevEnv creation, managemnet and the development processes.
 
 ➡️ Join the **XM Community**: [discord.gg/xm](https://discord.com/invite/Nv6hSzXruK)<br>
 ➡️ Check out our **website**: [axemsolutions.io](https://axemsolutions.io/)
