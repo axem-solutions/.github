@@ -6,4 +6,4 @@ We envision a future where developers in regulated industries can move as fast a
 
 ## Getting help
 In case you have any questions, feel free to contact us at 
-info@axemsolutions.io or write us on [Discord](https://discord.com/invite/Nv6hSzXruK)<br>
+info@axem.dev or write us on [Discord](https://discord.com/invite/Nv6hSzXruK)<br>
